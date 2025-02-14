@@ -24,7 +24,7 @@ services:
         - type=local,src=/tmp/docker-cache/api
       cache_to:
         - type=local,dest=/tmp/docker-cache/api,mode=max
-    image: nodecrewbeemo/api-image:latest
+    image: seun9yeon/api-image:latest
     networks:
       - db-network
       - api-network
