@@ -42,7 +42,7 @@ services:
         - type=local,src=/tmp/docker-cache/client
       cache_to:
         - type=local,dest=/tmp/docker-cache/client,mode=max
-    image: nodecrewbeemo/client-image:latest
+    image: seun9yeon/client-image:latest
     ports:
       - "80:80"
       - "443:443"
