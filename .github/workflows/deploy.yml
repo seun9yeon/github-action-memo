@@ -71,4 +71,4 @@ jobs:
             docker compose -f docker-compose-cache.yml pull
             docker compose -f docker-compose-cache.yml down
             docker compose -f docker-compose-cache.yml up -d
-            docker system prune -f
+            docker system prune -f   
