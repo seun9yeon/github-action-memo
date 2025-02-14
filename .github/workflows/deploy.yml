@@ -49,7 +49,7 @@ jobs:
       - name: Docker Image Push
         run: docker compose -f docker-compose-cache.yml push
 
-      - name: Copy .env / docker-compose.yml
+      - name: Copy .env / docker-compose-cache.yml
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.SSH_HOST }}
