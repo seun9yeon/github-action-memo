@@ -47,7 +47,7 @@ services:
     build:
       context: ./client
       dockerfile: Dockerfile
-    image: seun9yeon/client:latest
+    image: seun9yeon/client-image:latest
     ports:
       - "80:80"
       - "443:443"
